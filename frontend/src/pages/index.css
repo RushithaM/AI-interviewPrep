@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #1a202c;
+  color: #f9fafb;
+  background-attachment: fixed;
+}
+
+/* Card styles and hover effects */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+  color: #1e3a8a;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar styles */
+.navbar a {
+  color: #ffffff;
+  padding: 0 1rem;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #60a5fa;
+}
+
+/* Call-to-Action (CTA) Button */
+.cta-btn {
+  background-color: #60a5fa;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+/* Slider specific styles */
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #60a5fa;
+}
+
+/* Hover and glow effects */
+.underline-glow {
+  text-shadow: 0 0 8px #00f, 0 0 16px #00f;
+}
+
+.container-glow:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 255, 0.3);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}

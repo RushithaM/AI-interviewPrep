@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal global styling - only for light and dark mode management */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff; /* Default white background for light mode */
+  color: #1e3a8a; /* Dark blue text for light mode */
+}
+
+.dark body {
+  background-color: #111827; /* Dark background for dark mode */
+  color: #f9fafb; /* Light text for dark mode */
+}
